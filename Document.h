@@ -1,26 +1,17 @@
-/**
- * Project Untitled
- */
-
-
+//Jana Elmidany, Haya Shalaby, Rana Taher 
 #ifndef _DOCUMENT_H
 #define _DOCUMENT_H
+#include <string> 
+using namespace std;
 
 class Document {
 public: 
-    
-/**
- * @param FN
- */
-Document Document(string FN);
-    
-string getFileName();
-    
-vector<string> getLines();
-    
-int numOfWords();
+    Document(string FN); //constructor, opens file FN, stores lines in vector lines
+    string getFileName(); //getter for fileName
+    vector<string> getLines(); //getter for vector lines
+    int numOfWords(); //count & returns no. of words in the document 
 private: 
-    string fileName;
+    string fileName; 
     vector<string> lines;
 };
 
