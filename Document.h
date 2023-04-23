@@ -5,14 +5,14 @@
 using namespace std;
 
 class Document {
-public: 
-    Document(string FN); //constructor, opens file FN, stores lines in vector lines
-    string getFileName(); //getter for fileName
-    vector<string> getLines(); //getter for vector lines
-    int numOfWords(); //count & returns no. of words in the document 
-private: 
-    string fileName; 
-    vector<string> lines;
+    private: 
+        string fileName; 
+        vector<string> lines;
+    public: 
+        Document(string FN); //constructor, opens file FN, stores lines in vector lines
+        string getFileName(); //getter for fileName
+        vector<string> getLines(); //getter for vector lines
+        int numOfWords(); //count & returns no. of words in the document 
 };
 
 #endif //_DOCUMENT_H
