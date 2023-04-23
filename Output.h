@@ -1,31 +1,20 @@
-/**
- * Project Untitled
- */
-
-
+//Rana Taher, Jana Elmidany, Haya Shalaby
 #ifndef _OUTPUT_H
 #define _OUTPUT_H
 
 #include "PlagirismChecker.h"
-
+#include <string>
 
 class Output: public PlagirismChecker {
-public: 
-    
-/**
- * @param userFile
- * @param ogFile
- */
-Output Output(string userFile, string ogFile);
-    
-void Terminal();
-    
-void file();
-private: 
-    float percentPlag;
-    float percentRef;
-    float percentSim;
-    float percentQuotes;
+    private: 
+        float percentPlag;
+        float percentRef;
+        float percentSim;
+        float percentQuotes;
+    public: 
+        Output(string userFile, string ogFile): PlagirismChecker(userFile, ogFile); //constructor, executes all PlagirismChecker functions 
+        void Terminal(); //displays percentages in terminal
+        void file(); //displays percentages and highlighted text in file
 };
 
-#endif //_OUTPUT_H
+#endif //_OUTPUT_H 
