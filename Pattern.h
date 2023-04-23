@@ -1,13 +1,9 @@
-/**
- * Project Untitled
- */
-
-
+//Jana Elmidany, Haya Shalaby, Rana Taher 
 #ifndef _PATTERN_H
 #define _PATTERN_H
+#include <string> 
 
-class Pattern {
-public: 
+struct Pattern {
     string pattern;
     int noOfWords;
 };
