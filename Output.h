@@ -4,6 +4,9 @@
 
 #include "PlagirismChecker.h"
 #include <string>
+#include <fstream>
+#include <iostream>
+using namespace std;
 
 class Output: public PlagirismChecker {
     private: 
