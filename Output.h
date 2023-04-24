@@ -3,6 +3,7 @@
 #define _OUTPUT_H
 
 #include "PlagirismChecker.h"
+#include "Document.h"
 #include <string>
 #include <fstream>
 #include <iostream>
