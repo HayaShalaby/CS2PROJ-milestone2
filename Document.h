@@ -2,6 +2,7 @@
 #ifndef _DOCUMENT_H
 #define _DOCUMENT_H
 #include <string> 
+#include <fstream>
 using namespace std;
 
 class Document {
