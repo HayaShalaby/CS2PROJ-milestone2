@@ -3,6 +3,7 @@
 #define _PLAGIRISMCHECKER_H
 
 #include <string>
+#include <fstream>
 #include "Pattern.h"
 #include "Document.h"
 using namespace std;
