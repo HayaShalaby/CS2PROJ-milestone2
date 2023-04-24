@@ -4,6 +4,7 @@
 
 #include <string>
 #include <fstream>
+#include <iostream>
 #include "Pattern.h"
 #include "Document.h"
 using namespace std;
