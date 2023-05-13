@@ -27,7 +27,7 @@ void Document::setLines(string FN) {
     //numOfWords = numOfWords + words;
   }
   cout << lines.size()-1 << endl;
-}
+} 
 
 void Document::addLine(string sentence) {
   lines.push_back(sentence);
