@@ -143,7 +143,7 @@ void PlagiarismChecker::compLines(vector <string> data , vector <string> user) /
           x=isRef(user[j]);
       
           
-          if(x==true)
+          if(x==true && totalRef)
           {
             cout<<"The remaining is refreneces"<<endl;
               for(int in=j ; in<user.size() ; in++)
